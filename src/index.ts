@@ -1,2 +1,3 @@
 import { loggin, setTokenHeader } from "./jsonWebToken"
-export {loggin, setTokenHeader}
+import { criptoGraphPassword, verify} from "./criptografia"
+export {criptoGraphPassword, verify,loggin, setTokenHeader}
